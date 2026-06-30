@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfbfe;
+  color: #1e1135;
+}
+
+h1, h2, h3, .bubbly-font {
+  font-family: var(--font-display);
+}
+
+/* Rounded, bubbly styling refinements */
+button, input, select {
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ecdcfc;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d6bdf7;
+}

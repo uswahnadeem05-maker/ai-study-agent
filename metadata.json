@@ -1,0 +1,6 @@
+{
+  "name": "AI Study Agent",
+  "description": "A friendly, colorful AI study buddy featuring an AI Tutor, Study Plan Generator, PDF Summarizer, Quiz Generator, and Progress Tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
